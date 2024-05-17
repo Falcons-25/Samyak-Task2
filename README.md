@@ -12,6 +12,8 @@ The project consists of the following main components:
 5. **Error Handling**: Catches and displays errors.
 6. **Reset Functionality**: Allows resetting the data plot and log file.
 
+![image](https://github.com/Falcons-25/Samyak-Task2/assets/71555137/d927b5a4-ed70-4dff-9172-084103f67520)
+
 ## Flows
 
 ### Arduino Input
