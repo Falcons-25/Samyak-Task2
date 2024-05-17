@@ -63,6 +63,18 @@ The project consists of the following main components:
    - Double-click the `serial in` node.
    - Set the serial port to match your Arduino's connection (e.g., COM13).
 
+## Arduino Setup
+
+To complete the setup, you need to program the Arduino to read the distance from the ultrasonic sensor and output this data to the serial port.
+
+1. **Arduino Code**:
+   - Upload the reference code [(here)](ultrasonic_out.ino) to your Arduino
+
+2. **Connect the Ultrasonic Sensor**:
+   - Connect the VCC and GND pins of the ultrasonic sensor to the 5V and GND pins on the Arduino.
+   - Connect the Trig pin of the ultrasonic sensor to digital pin 9 on the Arduino.
+   - Connect the Echo pin of the ultrasonic sensor to digital pin 10 on the Arduino.
+
 ## Usage
 
 - Open the Node-RED dashboard in your browser.
@@ -75,4 +87,3 @@ The project consists of the following main components:
 
 - Ensure the serial port settings (baud rate, data bits, etc.) match the configuration of your Arduino.
 - The project assumes the log file is located at `D:\log.csv`. Adjust the file path as needed in the file nodes.
-
